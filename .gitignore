@@ -40,6 +40,7 @@ env/
 # Jupyter
 .ipynb_checkpoints
 *.ipynb
+code.ipynb
 
 # Environment
 .env
@@ -48,6 +49,12 @@ env/
 
 # Dependencies
 node_modules/
+
+# Vercel
+.vercel
+
+# Large datasets
+bhagavad_gita_dataset*.json
 *.lock
 
 # Vercel
@@ -73,3 +80,5 @@ htmlcov/
 # Production
 dist/
 build/
+.vercel
+.env*.local
